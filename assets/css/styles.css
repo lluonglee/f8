@@ -528,6 +528,9 @@ a {
     height: 28px;
     border-radius: 3px;
 }
+.footer .social-link + .footer .social-link {
+    margin-left: 16px;
+}
 
 .footer .social-link:hover {
     background-color: #ccc;
