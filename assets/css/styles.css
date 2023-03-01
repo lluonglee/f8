@@ -44,16 +44,26 @@ a {
 .btn:hover {
     opacity: 0.9;
 }
+.fixed-header {
+    background-color: #e6f0ff;
+    padding-top: 36px;
+    position: sticky;
+    top: -36px;
+    z-index: 1;
+}
 /* header */
-.header {
+.hero-wrap {
     background-color: #e6f0ff;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .navar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 .navar ul {
     display: flex;
